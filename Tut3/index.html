@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>form to apply</h1>
+    <form action="post">
+        <label for="username">Enter Your username :</label>
+        <input type="text" id="username" name="username" placeholder="Enter your Username">
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe</label>
+        </div>
+        <div>
+            <label for="comment">Comment Here</label>
+            <textarea placeholder="Comment here...." id="comment" name="comment" id="comment" cols="30" rows="1"></textarea>
+        </div>
+        <div>
+            <label for="phones">Mention Your Phone Brand: </label>
+            <select name="phones" id="phones">
+                <option value="apple iphone">iPhone</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Realme">Realme</option>
+            </select>
+        </div>
+        <div>
+            <button type="button" value="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
